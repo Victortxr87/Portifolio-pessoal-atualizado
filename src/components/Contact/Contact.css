@@ -1,0 +1,56 @@
+form {
+   width: 400px;
+   padding: 20px;
+   margin: 100px auto;
+   border-radius: 15px;
+   background-color: #343A40;
+   padding-right: 35px;
+}
+form label {
+
+   color :white;
+   padding: 5px;
+   margin: 5px;;
+ 
+}
+form fieldset {
+   border: 0;
+}
+
+form fieldset label {
+   display: block;
+}
+
+center .button {
+
+  
+
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #212529;
+      border-radius: 0.25rem;
+      border: none;
+      cursor: pointer;
+     
+
+   
+}
+
+form fieldset input,
+textarea {
+   width: 100%;
+   padding: 5px;
+   margin: 5px;;
+
+}
+
+@media only screen and (max-width: 500px) {
+   form {
+      width: 80%;
+   }
+}

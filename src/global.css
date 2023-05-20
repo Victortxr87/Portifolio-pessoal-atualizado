@@ -1,0 +1,9 @@
+body {
+   margin: 0;
+   font-family: "Montserrat", sans-serif;
+}
+
+.button:hover {
+   cursor: pointer;
+   border-bottom: 2px solid #c0f2c2;
+}
